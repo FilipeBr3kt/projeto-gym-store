@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    border-top: solid rgb(92, 90, 90) 3px;
+    display: flex;
+    background-color: rgb(160, 160, 160);
+    height: 90px;
+    justify-content: space-between;
+    border-bottom: solid rgb(92, 90, 90) 3px;
+}
+
+.logo {
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.logo img {
+    height: 110%;
+}
+
+.menu {
+    align-self: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 400px;
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.login {
+    align-self: center;
+}
+
+.login ul {
+    align-self: center;
+    display: flex;
+    margin-right: 70px;
+}
+
+.login li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+.login a{
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.menu a:hover {
+    transition: 0.7s;
+    opacity: 0.6;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.login a:hover {
+    transition: 0.7s;
+    opacity: 0.6;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fut {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(100, 100, 100);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.grade-pri {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.grade-sec img {
+    height: 450px;
+    border: solid rgb(92, 90, 90) 2px;
+    border-radius: 5px;
+}
+
+.back {
+    background: url(/img/backl.jpg) no-repeat no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.back h1 {
+    color: #fff;
+    text-align: left;
+    padding-top: 300px;
+    font-size: 25px;
+    font-family: Bebas Neue,sans-serif ;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+
+.back h4 {
+    color: #818181;
+    text-align: left;
+    font-size: 15px;
+    font-family: Bebas Neue,sans-serif ;
+    margin-left: 25px;
+}
+
+.sec-grade-pri {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+footer {
+    border-top: solid rgb(92, 90, 90) 2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+footer p {
+    font-family: montserrat, sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.p-pri {
+    padding-top: 10px;
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    color: black;
+}

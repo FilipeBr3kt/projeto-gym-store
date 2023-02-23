@@ -1,2 +1,2 @@
-# projeto-gym-store
+# SITE DE VENDAS
 SITE COM PRODUTOS DE ACADEMIA
